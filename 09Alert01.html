@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+
+<button>Ricardo mostrou seu programa para Pedro. <br> Assim que Pedro abriu o programa ele viu o seguinte resultado na tela:</button>
+<br>
+**************************************************
+BEM-VINDO AO MEU PROGRAMA
+**************************************************
+ELE REALMENTE FUNCIONA
+**************************************************
+EU USEI FUNÇÃO PARA FAZER ISSO
+<br>
+<button>O problema é que Ricardo não quis mostrar para Pedro como o programa foi feito, <br> mas ele deu uma pista quando exibiu a informação na tela: ele usou uma função para escrever cada linha.</button>
+<br>
+<button>Qual das opções abaixo possui um código que ao ser executado, <br> possui a mesma saída que Pedro viu no programa de Ricardo?</button>
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write("**************************************************");
+        pulaLinha();
+        document.write(frase);
+    }
+
+    mostra("BEM-VINDO AO MEU PROGRAMA");
+    mostra("ELE REALMENTE FUNCIONA");
+    mostra("EU USEI FUNÇÃO PARA FAZER ISSO");
+
+</script>
+
+<br>
+<button><a href="Aula 011">11
+    (Reflexão) Não programadores conseguem entender o que um código faz?</a></button>
